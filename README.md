@@ -19,3 +19,15 @@ spring.datasource.password=root
 
 
 **Step4:** Now launch the application as Java Application, It should successfully started.
+
+
+**Step5:** Added Product entity and following property in application.properties file. 
+
+```
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+```
+
+above two properties help to show the sql command in console and create the product table in db.
+
+
