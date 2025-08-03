@@ -28,6 +28,4 @@ spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-above two properties help to show the sql command in console and create the product table in db.
-
-
+above two properties help to show the sql command in console and create the product table in db
